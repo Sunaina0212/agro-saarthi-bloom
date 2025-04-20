@@ -1,13 +1,11 @@
 
-import HomeHero from "@/components/HomeHero";
-import HowItHelps from "@/components/HowItHelps";
-import FarmerSpeak from "@/components/FarmerSpeak";
-import WeatherWidget from "@/components/WeatherWidget";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Community from "@/components/Community";
 import SaathiChatbot from "@/components/SaathiChatbot";
+import WeatherWidget from "@/components/WeatherWidget";
 
-const Index = () => {
+const CommunityPage = () => {
   return (
     <div className="min-h-screen bg-white">
       <NavBar />
@@ -15,9 +13,7 @@ const Index = () => {
         <WeatherWidget />
       </div>
       <main>
-        <HomeHero />
-        <HowItHelps />
-        <FarmerSpeak />
+        <Community />
       </main>
       <SaathiChatbot />
       <Footer />
@@ -25,4 +21,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default CommunityPage;
